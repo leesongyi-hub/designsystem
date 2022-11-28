@@ -1,0 +1,24 @@
+:root {
+    --color-white: #{$--white};
+    --color-black: #{$--black};
+
+    --color-primary-light: #{$--blue400};
+    --color-primary: #{$--blue600};
+    --color-primary-dark: #{$--blue700};
+
+    --color-inverseGrey-100: #{$--grey900};
+    --color-inverseGrey-200: #{$--grey800};
+    --color-inverseGrey-300: #{$--grey700};
+    --color-inverseGrey-400: #{$--grey600};
+    --color-inverseGrey-600: #{$--grey500};
+    --color-inverseGrey-800: #{$--grey400};
+    --color-inverseGrey-900: #{$--grey300};
+
+    --color-txt-link: #{$--blue800};
+
+    --color-bg-grey: #{$--grey10};
+    --color-bg-greyDark: #{$--grey50};
+
+    --color-border-grey: #{$--grey100};
+    --color-border-greyDark: #{$--grey200};
+}

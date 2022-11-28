@@ -1,0 +1,12 @@
+/*
+ *
+ *  목차영역
+ *
+*/
+
+.index-panel{position:sticky;top:48px;left:0;width:260px;height:calc(100vh - 48px);padding:24px 0 24px 12px;background:var(--color-bg-grey);border-right:1px solid var(--color-border-grey);overflow-y:auto;}
+.index-panel ul{padding-left:16px;font-size:14px;}
+.index-panel ul li{position: relative;line-height:18px;}
+.index-panel ul li a{margin-right:4px;padding:6px 0;color:var(--color-primary);}
+
+.index-panel .ico_bookmark{position:absolute;top: 8px;left: -18px;}

@@ -1,0 +1,345 @@
+@charset "UTF-8";
+/*Color*/
+body, html {
+  height: 100%;
+}
+
+body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, select, table, td, textarea, th, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body, button, input, select, table, textarea {
+  font-size: 15px;
+  line-height: 170%;
+  color: #3A4045;
+  font-weight: 400;
+  font-family: "Pretendard", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Malgun Gothic", "맑은 고딕", Dotum, "돋움", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+textarea {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color: transparent;
+  border: 0;
+  word-break: keep-all;
+  word-wrap: break-word;
+}
+
+button, input {
+  border-radius: 0;
+  border: 0;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:focus-visible {
+  outline: 3px solid #BFDEFF;
+  border-radius: 4px;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+address, em {
+  font-style: normal;
+}
+
+a {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+iframe {
+  overflow: hidden;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  vertical-align: top;
+}
+
+mark {
+  background-color: transparent;
+}
+
+i {
+  font-style: normal;
+}
+
+span, a, strong {
+  display: inline-block;
+}
+
+table {
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* scrollBar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(202, 202, 202, 0.5);
+  /* border-radius: 5px; */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(75, 75, 75, 0.5);
+}
+
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+  display: none;
+}
+
+::-webkit-scrollbar:vertical {
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+/* input */
+[type=checkbox], [type=radio] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+input::-ms-clear,
+input::-ms-reveal {
+  display: none;
+}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration {
+  display: none;
+}
+
+.skip {
+  width: 1px;
+  height: 1px;
+  font-size: 0;
+  line-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  position: absolute;
+  left: -9999px;
+}
+
+h1, h2 {
+  line-height: 130%;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: local("Pretendard"), url("../font/Pretendard-Light.woff2") format("woff2"), url("../font/Pretendard-Light.woff") format("woff");
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Pretendard";
+  src: local("Pretendard"), url("../font/Pretendard-Regular.woff2") format("woff2"), url("../font/Pretendard-Regular.woff") format("woff");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Pretendard";
+  src: local("Pretendard"), url("../font/Pretendard-Medium.woff2") format("woff2"), url("../font/Pretendard-Medium.woff") format("woff");
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Pretendard";
+  src: local("Pretendard"), url("../font/Pretendard-Bold.woff2") format("woff2"), url("../font/Pretendard-Bold.woff") format("woff");
+  font-weight: 700;
+  font-display: swap;
+}
+.i_s14 {
+  width: 14px;
+  height: 14px;
+}
+
+.i_s18 {
+  width: 18px;
+  height: 18px;
+}
+
+.i_s20 {
+  width: 20px;
+  height: 20px;
+}
+
+.i_s24 {
+  width: 24px;
+  height: 24px;
+}
+
+.i_s40 {
+  width: 40px;
+  height: 40px;
+}
+
+.i_s44 {
+  width: 44px;
+  height: 44px;
+}
+
+.ico {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.ico:before {
+  content: "";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: inherit;
+  height: inherit;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.ico.ico_reple:before {
+  background-image: url(../images/icon/ico_reple.svg);
+}
+
+.ico.ico_file:before {
+  background-image: url(../images/icon/ico_file.svg);
+}
+
+.ico.ico_more:before {
+  background-image: url(../images/icon/ico_more.svg);
+}
+
+.ico.ico_bookmark:before {
+  background-image: url(../images/icon/ico_bookmark.svg);
+}
+
+.ico.ico_bookmark.on:before {
+  background-image: url(../images/icon/ico_bookmark_on.svg);
+}
+
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --color-primary-light: #45B6FC;
+  --color-primary: #2487EB;
+  --color-primary-dark: #1674DF;
+  --color-inverseGrey-100: #1F252C;
+  --color-inverseGrey-200: #2F3337;
+  --color-inverseGrey-300: #3A4045;
+  --color-inverseGrey-400: #454C52;
+  --color-inverseGrey-600: #626C74;
+  --color-inverseGrey-800: #8B959D;
+  --color-inverseGrey-900: #ACB3B9;
+  --color-txt-link: #1061CB;
+  --color-bg-grey: #F9FAFA;
+  --color-bg-greyDark: #F4F5F6;
+  --color-border-grey: #ECEEEF;
+  --color-border-greyDark: #DEE1E3;
+}
+
+/*
+ *
+ *  목차영역
+ *
+*/
+.index-panel {
+  position: sticky;
+  top: 48px;
+  left: 0;
+  width: 260px;
+  height: calc(100vh - 48px);
+  padding: 24px 0 24px 12px;
+  background: var(--color-bg-grey);
+  border-right: 1px solid var(--color-border-grey);
+  overflow-y: auto;
+}
+
+.index-panel ul {
+  padding-left: 16px;
+  font-size: 14px;
+}
+
+.index-panel ul li {
+  position: relative;
+  line-height: 18px;
+}
+
+.index-panel ul li a {
+  margin-right: 4px;
+  padding: 6px 0;
+  color: var(--color-primary);
+}
+
+.index-panel .ico_bookmark {
+  position: absolute;
+  top: 8px;
+  left: -18px;
+}

@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Mon, 05 Dec 2022 06:28:00 GMT
+// Generated on Mon, 05 Dec 2022 07:27:04 GMT
 
 
 import UIKit
@@ -34,7 +34,6 @@ public class StyleDictionaryClass {
     public static let globalBlue700 = #1674df
     public static let globalBlue800 = #1061cb
     public static let globalBlue900 = #0e49af
-    public static let globalBorderDark = #757b7f
     public static let globalBorderDefault = #dddedf
     public static let globalBorderLight = #eaebec
     public static let globalGray100 = #f9fafa
@@ -46,7 +45,7 @@ public class StyleDictionaryClass {
     public static let globalGray700 = #535a60
     public static let globalGray800 = #323639
     public static let globalGray900 = #111213
-    public static let globalPrimary = #31a8f6
+    public static let globalPrimary = #ffffff
     public static let globalWhite = #ffffff
     public static let sizeFontBase = CGFloat(16.00) /* the base size of the font */
     public static let sizeFontLarge = CGFloat(32.00) /* the large size of the font */

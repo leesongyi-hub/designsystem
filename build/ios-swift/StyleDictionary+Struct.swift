@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Mon, 05 Dec 2022 06:28:00 GMT
+// Generated on Mon, 05 Dec 2022 07:27:04 GMT
 
 
 import UIKit
@@ -34,7 +34,6 @@ internal struct StyleDictionaryStruct {
     internal static let globalBlue700 = #1674df
     internal static let globalBlue800 = #1061cb
     internal static let globalBlue900 = #0e49af
-    internal static let globalBorderDark = #757b7f
     internal static let globalBorderDefault = #dddedf
     internal static let globalBorderLight = #eaebec
     internal static let globalGray100 = #f9fafa
@@ -46,7 +45,7 @@ internal struct StyleDictionaryStruct {
     internal static let globalGray700 = #535a60
     internal static let globalGray800 = #323639
     internal static let globalGray900 = #111213
-    internal static let globalPrimary = #31a8f6
+    internal static let globalPrimary = #ffffff
     internal static let globalWhite = #ffffff
     internal static let sizeFontBase = CGFloat(16.00) /* the base size of the font */
     internal static let sizeFontLarge = CGFloat(32.00) /* the large size of the font */

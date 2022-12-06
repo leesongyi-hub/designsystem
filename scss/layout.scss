@@ -2,8 +2,8 @@
 
 
 
-
-.txt-link{color:var(--color-txt-link)}
+body{background-color:var(--color-bgGreyDark)}
+.txt-link{color:var(--color-bgGreyDark)}
 
 @mixin flex {
     display:flex;    

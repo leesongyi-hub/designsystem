@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 06 Dec 2022 04:34:52 GMT
+// Generated on Tue, 06 Dec 2022 04:53:39 GMT
 
 
 import UIKit
@@ -58,8 +58,7 @@ public class StyleDictionaryClass {
     public static let iconBlack = #323639
     public static let iconGray = #757b7f
     public static let iconPrimary = #2487eb
-    public static let primaryTestTest = #2487eb
-    public static let primaryTestTest333 = #2487eb
+    public static let primary = #2487eb
     public static let sizeFontBase = CGFloat(16.00) /* the base size of the font */
     public static let sizeFontLarge = CGFloat(32.00) /* the large size of the font */
     public static let sizeFontMedium = CGFloat(16.00) /* the medium size of the font */

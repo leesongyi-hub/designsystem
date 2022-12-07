@@ -12,11 +12,15 @@
       "value": "{gray.400}",
       "type": "color"
     },
+    "color": {
+      "blue": {
+        "50": {
+          "value": "#f5faff",
+          "type": "color"
+        }
+      }
+    },
     "blue": {
-      "50": {
-        "value": "#f5faff",
-        "type": "color"
-      },
       "100": {
         "value": "#dcf3ff",
         "type": "color"

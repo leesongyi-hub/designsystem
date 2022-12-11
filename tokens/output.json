@@ -1,5 +1,5 @@
 {
-  "primaryTestTest333": {
+  "primary": {
     "value": "#2487eb",
     "type": "color"
   },
@@ -178,6 +178,12 @@
     "primary": {
       "value": "#2487eb",
       "type": "color"
+    }
+  },
+  "radius": {
+    "border4": {
+      "value": "40px",
+      "type": "borderRadius"
     }
   },
   "tokenSetOrder": {

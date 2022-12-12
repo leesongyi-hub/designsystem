@@ -1,60 +1,41 @@
 
 // Do not edit directly
-// Generated on Sun, 11 Dec 2022 09:09:29 GMT
+// Generated on Mon, 12 Dec 2022 08:11:28 GMT
 
-$color-base-gray-light: #cccccc;
-$color-base-gray-medium: #999999;
-$color-base-gray-dark: #111111;
-$color-base-red: #ff0000;
-$color-base-green: #00ff00;
-$color-font-base: #ff0000;
-$color-font-secondary: #00ff00;
-$color-font-tertiary: #cccccc;
-$primary: #2487eb;
 $white: #ffffff;
 $black: #000000;
-$disabled: #dddedf;
-$blue-50: #f5faff;
-$blue-100: #dcf3ff;
-$blue-200: #c7ecff;
-$blue-300: #8fd8ff;
-$blue-400: #66c7ff;
-$blue-500: #31a8f6;
-$blue-600: #2487eb;
-$blue-700: #1674df;
-$blue-800: #1061cb;
-$blue-900: #0e49af;
-$gray-100: #f9fafa;
-$gray-200: #f5f5f5;
-$gray-300: #eaebec;
-$gray-400: #dddedf;
-$gray-500: #989c9f;
-$gray-600: #757b7f;
-$gray-700: #535a60;
-$gray-800: #323639;
-$gray-900: #111213;
-$border-default: #dddedf;
-$border-light: #eaebec;
-$border-dark: #989c9f;
-$border-primary: #31a8f6;
-$background-light: #f9fafa;
-$background-default: #f5f5f5;
-$background-dark: #eaebec;
-$background-primary-light: #f5faff;
-$background-primary-default: #dcf3ff;
-$background-primary-dark: #c7ecff;
-$font-100: #111213;
-$font-300: #323639;
-$font-700: #757b7f;
-$font-900: #989c9f;
-$font-primary: #2487eb;
-$font-link: #1061cb;
-$icon-black: #323639;
-$icon-gray: #757b7f;
-$icon-primary: #2487eb;
-$radius-border4: 40px;
+$base-color-blue-10: #f5faff;
+$base-color-blue-50: #edf6ff;
+$base-color-blue-100: #dcf3ff;
+$base-color-blue-200: #c7ecff;
+$base-color-blue-300: #8fd8ff;
+$base-color-blue-400: #66c7ff;
+$base-color-blue-500: #31a8f6;
+$base-color-blue-600: #2487eb;
+$base-color-blue-700: #1674df;
+$base-color-blue-800: #1061cb;
+$base-color-blue-900: #0e49af;
+$base-color-gray-10: #f9f9fb;
+$base-color-gray-20: #f6f7fb;
+$base-color-gray-30: #f4f5f6;
+$base-color-gray-40: #f0f1f2;
+$base-color-gray-50: #e6eaed;
+$base-color-gray-60: #d5dae0;
+$base-color-gray-70: #c5cbd1;
+$base-color-gray-80: #b3bac1;
+$base-color-gray-90: #a4abb2;
+$base-color-gray-100: #9ca0a6;
+$base-color-gray-200: #81868c;
+$base-color-gray-300: #767b7f;
+$base-color-gray-400: #6a6f73;
+$base-color-gray-500: #575c60;
+$base-color-gray-600: #464a4d;
+$base-color-gray-700: #343739;
+$base-color-gray-800: #16181a;
+$base-color-gray-900: #000000;
 $token-set-order-0: global;
-$size-font-small: 0.75rem; // the small size of the font
-$size-font-medium: 1rem; // the medium size of the font
-$size-font-large: 2rem; // the large size of the font
-$size-font-base: 1rem; // the base size of the font
+$token-set-order-1: base;
+$token-set-order-2: button;
+$token-set-order-3: font;
+$token-set-order-4: border;
+$token-set-order-5: background;

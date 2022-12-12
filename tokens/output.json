@@ -1,8 +1,4 @@
 {
-  "primarytesttesttest": {
-    "value": "#2487eb",
-    "type": "color"
-  },
   "white": {
     "value": "#ffffff",
     "type": "color"
@@ -11,184 +7,153 @@
     "value": "#000000",
     "type": "color"
   },
-  "disabled": {
-    "value": "#dddedf",
-    "type": "color"
-  },
-  "blue": {
-    "50": {
-      "value": "#f5faff",
-      "type": "color"
-    },
-    "100": {
-      "value": "#dcf3ff",
-      "type": "color"
-    },
-    "200": {
-      "value": "#c7ecff",
-      "type": "color"
-    },
-    "300": {
-      "value": "#8fd8ff",
-      "type": "color"
-    },
-    "400": {
-      "value": "#66c7ff",
-      "type": "color"
-    },
-    "500": {
-      "value": "#31a8f6",
-      "type": "color"
-    },
-    "600": {
-      "value": "#2487eb",
-      "type": "color"
-    },
-    "700": {
-      "value": "#1674df",
-      "type": "color"
-    },
-    "800": {
-      "value": "#1061cb",
-      "type": "color"
-    },
-    "900": {
-      "value": "#0e49af",
-      "type": "color"
-    }
-  },
-  "gray": {
-    "100": {
-      "value": "#f9fafa",
-      "type": "color"
-    },
-    "200": {
-      "value": "#f5f5f5",
-      "type": "color"
-    },
-    "300": {
-      "value": "#eaebec",
-      "type": "color"
-    },
-    "400": {
-      "value": "#dddedf",
-      "type": "color"
-    },
-    "500": {
-      "value": "#989c9f",
-      "type": "color"
-    },
-    "600": {
-      "value": "#757b7f",
-      "type": "color"
-    },
-    "700": {
-      "value": "#535a60",
-      "type": "color"
-    },
-    "800": {
-      "value": "#323639",
-      "type": "color"
-    },
-    "900": {
-      "value": "#111213",
-      "type": "color"
-    }
-  },
-  "border": {
-    "default": {
-      "value": "#dddedf",
-      "type": "color"
-    },
-    "light": {
-      "value": "#eaebec",
-      "type": "color"
-    },
-    "dark": {
-      "value": "#989c9f",
-      "type": "color"
-    },
-    "primary": {
-      "value": "#31a8f6",
-      "type": "color"
-    }
-  },
-  "background": {
-    "light": {
-      "value": "#f9fafa",
-      "type": "color"
-    },
-    "default": {
-      "value": "#f5f5f5",
-      "type": "color"
-    },
-    "dark": {
-      "value": "#eaebec",
-      "type": "color"
-    },
-    "primaryLight": {
-      "value": "#f5faff",
-      "type": "color"
-    },
-    "primaryDefault": {
-      "value": "#dcf3ff",
-      "type": "color"
-    },
-    "primaryDark": {
-      "value": "#c7ecff",
-      "type": "color"
-    }
-  },
-  "font": {
-    "100": {
-      "value": "#111213",
-      "type": "color"
-    },
-    "300": {
-      "value": "#323639",
-      "type": "color"
-    },
-    "700": {
-      "value": "#757b7f",
-      "type": "color"
-    },
-    "900": {
-      "value": "#989c9f",
-      "type": "color"
-    },
-    "primary": {
-      "value": "#2487eb",
-      "type": "color"
-    },
-    "link": {
-      "value": "#1061cb",
-      "type": "color",
-      "description": "ff"
-    }
-  },
-  "icon": {
-    "black": {
-      "value": "#323639",
-      "type": "color"
-    },
-    "gray": {
-      "value": "#757b7f",
-      "type": "color"
-    },
-    "primary": {
-      "value": "#2487eb",
-      "type": "color"
-    }
-  },
-  "radius": {
-    "border4": {
-      "value": "40px",
-      "type": "borderRadius"
+  "base": {
+    "color": {
+      "blue": {
+        "10": {
+          "value": "#f5faff",
+          "type": "color"
+        },
+        "50": {
+          "value": "#edf6ff",
+          "type": "color"
+        },
+        "100": {
+          "value": "#dcf3ff",
+          "type": "color"
+        },
+        "200": {
+          "value": "#c7ecff",
+          "type": "color"
+        },
+        "300": {
+          "value": "#8fd8ff",
+          "type": "color"
+        },
+        "400": {
+          "value": "#66c7ff",
+          "type": "color"
+        },
+        "500": {
+          "value": "#31a8f6",
+          "type": "color"
+        },
+        "600": {
+          "value": "#2487eb",
+          "type": "color"
+        },
+        "700": {
+          "value": "#1674df",
+          "type": "color"
+        },
+        "800": {
+          "value": "#1061cb",
+          "type": "color"
+        },
+        "900": {
+          "value": "#0e49af",
+          "type": "color"
+        }
+      },
+      "gray": {
+        "10": {
+          "value": "#f9f9fb",
+          "type": "color"
+        },
+        "20": {
+          "value": "#f6f7fb",
+          "type": "color"
+        },
+        "30": {
+          "value": "#f4f5f6",
+          "type": "color"
+        },
+        "40": {
+          "value": "#f0f1f2",
+          "type": "color"
+        },
+        "50": {
+          "value": "#e6eaed",
+          "type": "color"
+        },
+        "60": {
+          "value": "#d5dae0",
+          "type": "color"
+        },
+        "70": {
+          "value": "#c5cbd1",
+          "type": "color"
+        },
+        "80": {
+          "value": "#b3bac1",
+          "type": "color"
+        },
+        "90": {
+          "value": "#a4abb2",
+          "type": "color"
+        },
+        "100": {
+          "value": "#9ca0a6",
+          "type": "color"
+        },
+        "200": {
+          "value": "#81868c",
+          "type": "color"
+        },
+        "300": {
+          "value": "#767b7f",
+          "type": "color"
+        },
+        "400": {
+          "value": "#6a6f73",
+          "type": "color"
+        },
+        "500": {
+          "value": "#575c60",
+          "type": "color"
+        },
+        "600": {
+          "value": "#464a4d",
+          "type": "color"
+        },
+        "700": {
+          "value": "#343739",
+          "type": "color"
+        },
+        "800": {
+          "value": "#16181a",
+          "type": "color"
+        },
+        "900": {
+          "value": "#000000",
+          "type": "color"
+        }
+      }
     }
   },
   "tokenSetOrder": {
     "0": {
       "value": "global",
+      "type": "other"
+    },
+    "1": {
+      "value": "base",
+      "type": "other"
+    },
+    "2": {
+      "value": "button",
+      "type": "other"
+    },
+    "3": {
+      "value": "font",
+      "type": "other"
+    },
+    "4": {
+      "value": "border",
+      "type": "other"
+    },
+    "5": {
+      "value": "background",
       "type": "other"
     }
   }

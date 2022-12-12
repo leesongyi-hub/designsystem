@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/*Color*/
 body, html {
   height: 100%;
 }
@@ -107,8 +106,7 @@ table {
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* scrollBar */
@@ -143,8 +141,7 @@ body::-webkit-scrollbar {
 
 /* input */
 [type=checkbox], [type=radio] {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0;
 }
 
@@ -248,15 +245,11 @@ h1, h2 {
 }
 
 .ico {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
 }
 
 .ico:before {
   content: "";
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: inherit;
   height: inherit;
@@ -285,32 +278,13 @@ h1, h2 {
   background-image: url(../images/icon/ico_bookmark_on.svg);
 }
 
-:root {
-  --color-white: #fff;
-  --color-black: #000;
-  --color-primary-light: #45B6FC;
-  --color-primary: #2487EB;
-  --color-primary-dark: #1674DF;
-  --color-inverseGrey-100: #1F252C;
-  --color-inverseGrey-200: #2F3337;
-  --color-inverseGrey-300: #3A4045;
-  --color-inverseGrey-400: #454C52;
-  --color-inverseGrey-600: #626C74;
-  --color-inverseGrey-800: #8B959D;
-  --color-inverseGrey-900: #ACB3B9;
-  --color-txt-link: #1061CB;
-  --color-bg-grey: #F9FAFA;
-  --color-bg-greyDark: #F4F5F6;
-  --color-border-grey: #ECEEEF;
-  --color-border-greyDark: #DEE1E3;
-}
-
 /*
  *
  *  목차영역
  *
 */
 .index-panel {
+  position: -webkit-sticky;
   position: sticky;
   top: 48px;
   left: 0;

@@ -1,12 +1,10 @@
+@import 'style';
 
+body{background-color:$color-font-base}
 
-
-
-body{background-color:var(--color-bgGreyDark)}
-.txt-link{color:var(--color-bgGreyDark)}
 
 @mixin flex {
-    display:flex;    
+    display:flex; 
     align-items: center;
 }
 

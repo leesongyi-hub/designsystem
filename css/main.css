@@ -13,7 +13,7 @@ body, button, input, select, table, textarea {
   line-height: 170%;
   color: #3A4045;
   font-weight: 400;
-  font-family: "Pretendard", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Malgun Gothic", "맑은 고딕", Dotum, "돋움", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji";
+  font-family: "Pretendard", -apple-system, system-ui, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", Dotum, "돋움", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji";
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -45,8 +45,7 @@ button:focus {
 }
 
 button:focus-visible {
-  outline: 3px solid #BFDEFF;
-  border-radius: 4px;
+  outline: none;
 }
 
 fieldset, img {
@@ -109,37 +108,6 @@ table {
   box-sizing: border-box;
 }
 
-/* scrollBar */
-::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: rgba(202, 202, 202, 0.5);
-  /* border-radius: 5px; */
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: rgba(75, 75, 75, 0.5);
-}
-
-::-webkit-scrollbar-button:start:decrement,
-::-webkit-scrollbar-button:end:increment {
-  display: none;
-}
-
-::-webkit-scrollbar:vertical {
-  border-left: 1px solid #eee;
-  border-right: 1px solid #eee;
-}
-
-body::-webkit-scrollbar {
-  width: 12px;
-  height: 12px;
-}
-
-/* input */
 [type=checkbox], [type=radio] {
   box-sizing: border-box;
   padding: 0;
@@ -175,27 +143,6 @@ input::-webkit-search-results-decoration {
   display: none;
 }
 
-.skip {
-  width: 1px;
-  height: 1px;
-  font-size: 0;
-  line-height: 0;
-  overflow: hidden;
-  visibility: hidden;
-  position: absolute;
-  left: -9999px;
-}
-
-h1, h2 {
-  line-height: 130%;
-}
-
-@font-face {
-  font-family: "Pretendard";
-  src: local("Pretendard"), url("../font/Pretendard-Light.woff2") format("woff2"), url("../font/Pretendard-Light.woff") format("woff");
-  font-weight: 300;
-  font-display: swap;
-}
 @font-face {
   font-family: "Pretendard";
   src: local("Pretendard"), url("../font/Pretendard-Regular.woff2") format("woff2"), url("../font/Pretendard-Regular.woff") format("woff");
@@ -213,107 +160,4 @@ h1, h2 {
   src: local("Pretendard"), url("../font/Pretendard-Bold.woff2") format("woff2"), url("../font/Pretendard-Bold.woff") format("woff");
   font-weight: 700;
   font-display: swap;
-}
-.i_s14 {
-  width: 14px;
-  height: 14px;
-}
-
-.i_s18 {
-  width: 18px;
-  height: 18px;
-}
-
-.i_s20 {
-  width: 20px;
-  height: 20px;
-}
-
-.i_s24 {
-  width: 24px;
-  height: 24px;
-}
-
-.i_s40 {
-  width: 40px;
-  height: 40px;
-}
-
-.i_s44 {
-  width: 44px;
-  height: 44px;
-}
-
-.ico {
-  display: inline-flex;
-}
-
-.ico:before {
-  content: "";
-  display: flex;
-  width: inherit;
-  height: inherit;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-}
-
-.ico.ico_reple:before {
-  background-image: url(../images/icon/ico_reple.svg);
-}
-
-.ico.ico_file:before {
-  background-image: url(../images/icon/ico_file.svg);
-}
-
-.ico.ico_more:before {
-  background-image: url(../images/icon/ico_more.svg);
-}
-
-.ico.ico_bookmark:before {
-  background-image: url(../images/icon/ico_bookmark.svg);
-}
-
-.ico.ico_bookmark.on:before {
-  background-image: url(../images/icon/ico_bookmark_on.svg);
-}
-
-/*
- *
- *  목차영역
- *
-*/
-.index-panel {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 48px;
-  left: 0;
-  width: 260px;
-  height: calc(100vh - 48px);
-  padding: 24px 0 24px 12px;
-  background: var(--color-bg-grey);
-  border-right: 1px solid var(--color-border-grey);
-  overflow-y: auto;
-}
-
-.index-panel ul {
-  padding-left: 16px;
-  font-size: 14px;
-}
-
-.index-panel ul li {
-  position: relative;
-  line-height: 18px;
-}
-
-.index-panel ul li a {
-  margin-right: 4px;
-  padding: 6px 0;
-  color: var(--color-primary);
-}
-
-.index-panel .ico_bookmark {
-  position: absolute;
-  top: 8px;
-  left: -18px;
 }

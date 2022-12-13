@@ -241,6 +241,28 @@
         "40": {
           "value": "#f0f1f2",
           "type": "color"
+        },
+        "50": {
+          "value": "#e6eaed",
+          "type": "color"
+        }
+      },
+      "blue": {
+        "10": {
+          "value": "#f5faff",
+          "type": "color"
+        },
+        "20": {
+          "value": "#dcf3ff",
+          "type": "color"
+        },
+        "30": {
+          "value": "#c7ecff",
+          "type": "color"
+        },
+        "40": {
+          "value": "#66c7ff",
+          "type": "color"
         }
       }
     },
@@ -278,6 +300,16 @@
           "value": "#9ca0a6",
           "type": "color"
         }
+      }
+    },
+    "icon": {
+      "light": {
+        "value": "#81868c",
+        "type": "color"
+      },
+      "default": {
+        "value": "#343739",
+        "type": "color"
       }
     }
   },
@@ -382,39 +414,35 @@
       "170": {
         "value": "170%",
         "type": "lineHeights"
+      },
+      "180": {
+        "value": "180%",
+        "type": "lineHeights"
       }
     }
+  },
+  "pretendard": {
+    "value": "Pretendard",
+    "type": "fontFamilies"
   },
   "text": {
     "heading": {
       "large": {
-        "fontSize": {
-          "value": "36px",
-          "type": "fontSizes"
-        },
-        "lineHeight": {
-          "value": "130%",
-          "type": "lineHeight"
+        "fontFamily": {
+          "value": "Pretendard",
+          "type": "fontFamilies"
         },
         "fontWeight": {
           "value": 700,
           "type": "fontWeights"
         },
-        "letterSpacing": {
-          "value": 0,
-          "type": "letterSpacing"
+        "lineHeight": {
+          "value": "120%",
+          "type": "lineHeight"
         },
-        "fontFamily": {
-          "value": "Pretendard",
-          "type": "fontFamilies"
-        },
-        "textDecoration": {
-          "value": "none",
-          "type": "textDecoration"
-        },
-        "textCase": {
-          "value": "none",
-          "type": "textCase"
+        "fontSize": {
+          "value": "36px",
+          "type": "fontSizes"
         }
       },
       "medium": {
@@ -433,21 +461,267 @@
         "fontSize": {
           "value": "32px",
           "type": "fontSizes"
+        }
+      },
+      "small": {
+        "fontFamily": {
+          "value": "Pretendard",
+          "type": "fontFamilies"
         },
-        "textDecoration": {
-          "value": "none",
-          "type": "textDecoration"
+        "fontWeight": {
+          "value": 600,
+          "type": "fontWeights"
         },
-        "textCase": {
-          "value": "none",
-          "type": "textCase"
+        "lineHeight": {
+          "value": "130%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": "24px",
+          "type": "fontSizes"
+        }
+      }
+    },
+    "title": {
+      "large": {
+        "fontFamily": {
+          "value": "Pretendard",
+          "type": "fontFamilies"
+        },
+        "fontWeight": {
+          "value": 700,
+          "type": "fontWeights"
+        },
+        "lineHeight": {
+          "value": "130%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": "24px",
+          "type": "fontSizes"
+        }
+      },
+      "medium": {
+        "fontFamily": {
+          "value": "Pretendard",
+          "type": "fontFamilies"
+        },
+        "fontWeight": {
+          "value": 700,
+          "type": "fontWeights"
+        },
+        "lineHeight": {
+          "value": "130%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": "22px",
+          "type": "fontSizes"
+        }
+      },
+      "small": {
+        "fontFamily": {
+          "value": "Pretendard",
+          "type": "fontFamilies"
+        },
+        "fontWeight": {
+          "value": 700,
+          "type": "fontWeights"
+        },
+        "lineHeight": {
+          "value": "130%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": "20px",
+          "type": "fontSizes"
+        }
+      },
+      "xsmall": {
+        "fontFamily": {
+          "value": "Pretendard",
+          "type": "fontFamilies"
+        },
+        "fontWeight": {
+          "value": 600,
+          "type": "fontWeights"
+        },
+        "lineHeight": {
+          "value": "160%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": "18px",
+          "type": "fontSizes"
+        }
+      }
+    },
+    "body": {
+      "large": {
+        "fontFamily": {
+          "value": "Pretendard",
+          "type": "fontFamilies"
+        },
+        "fontWeight": {
+          "value": 400,
+          "type": "fontWeights"
+        },
+        "lineHeight": {
+          "value": "180%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": "16px",
+          "type": "fontSizes"
+        }
+      },
+      "largeBold": {
+        "fontFamily": {
+          "value": "Pretendard",
+          "type": "fontFamilies"
+        },
+        "fontWeight": {
+          "value": 500,
+          "type": "fontWeights"
+        },
+        "lineHeight": {
+          "value": "180%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": "16px",
+          "type": "fontSizes"
+        }
+      },
+      "medium": {
+        "fontFamily": {
+          "value": "Pretendard",
+          "type": "fontFamilies"
+        },
+        "fontWeight": {
+          "value": 400,
+          "type": "fontWeights"
+        },
+        "lineHeight": {
+          "value": "170%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": "15px",
+          "type": "fontSizes"
+        }
+      },
+      "mediumBold": {
+        "fontFamily": {
+          "value": "Pretendard",
+          "type": "fontFamilies"
+        },
+        "fontWeight": {
+          "value": 500,
+          "type": "fontWeights"
+        },
+        "lineHeight": {
+          "value": "170%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": "15px",
+          "type": "fontSizes"
+        }
+      },
+      "small": {
+        "fontFamily": {
+          "value": "Pretendard",
+          "type": "fontFamilies"
+        },
+        "fontWeight": {
+          "value": 400,
+          "type": "fontWeights"
+        },
+        "lineHeight": {
+          "value": "160%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": "14px",
+          "type": "fontSizes"
+        }
+      },
+      "smallBold": {
+        "fontFamily": {
+          "value": "Pretendard",
+          "type": "fontFamilies"
+        },
+        "fontWeight": {
+          "value": 500,
+          "type": "fontWeights"
+        },
+        "lineHeight": {
+          "value": "170%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": "14px",
+          "type": "fontSizes"
+        }
+      }
+    },
+    "label": {
+      "large": {
+        "fontFamily": {
+          "value": "Pretendard",
+          "type": "fontFamilies"
+        },
+        "fontWeight": {
+          "value": 400,
+          "type": "fontWeights"
+        },
+        "lineHeight": {
+          "value": "160%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": "13px",
+          "type": "fontSizes"
+        }
+      },
+      "medium": {
+        "fontFamily": {
+          "value": "Pretendard",
+          "type": "fontFamilies"
+        },
+        "fontWeight": {
+          "value": 400,
+          "type": "fontWeights"
+        },
+        "lineHeight": {
+          "value": "160%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": "12px",
+          "type": "fontSizes"
+        }
+      },
+      "small": {
+        "fontFamily": {
+          "value": "Pretendard",
+          "type": "fontFamilies"
+        },
+        "fontWeight": {
+          "value": 400,
+          "type": "fontWeights"
+        },
+        "lineHeight": {
+          "value": "160%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": "11px",
+          "type": "fontSizes"
         }
       }
     }
-  },
-  "pretendard": {
-    "value": "Pretendard",
-    "type": "fontFamilies"
   },
   "tokenSetOrder": {
     "0": {
